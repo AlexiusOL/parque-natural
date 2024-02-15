@@ -15,6 +15,11 @@ h1 {
     text-align: center;
     color: #5f8f11;
     letter-spacing: .2em;
+    background-image: url(Imagenes/panoramica.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    margin:  0;
 }
 h1 span {
     color: #bf8238;
@@ -57,7 +62,7 @@ div.contenido {
     border-color: #9f9f9f;
     background-color: #f6ffdf;
 }
-#menu li:hover a{
+#menu li:hover a {
     color: #000;
 }
 img.animal {
@@ -67,3 +72,43 @@ img.animal {
     margin: 50px 0 10px;
     float: right;
 } 
+table.reservas {
+    font-size: 90%;
+    background-color: #efd3b3;
+    text-align: center;
+    margin: 10px auto;
+    width: 410px;
+    border: #bf8238 1px solid;
+
+}
+table.reservas td {
+    background-color: #efffef;
+}
+table.reservas th {
+    background-color: #efd3b3;
+    color: #5f8f11;
+}
+table.reservas  td.titulo {
+    background-color: #d6efc2;
+}
+form {
+    width: 410px;
+    border: #bf8238 1px solid;
+    margin: auto;
+}
+form table {
+    width: 410px;
+    font-size: 90%;
+    border: #efd3b3 3px solid;
+    background-color: #efffef;
+}
+.texto {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bf8238 #efefef #efefef #bf8238;
+}
+.boton {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #efd3b3 #bf8238 #bf8238 #efd3b3;
+}
